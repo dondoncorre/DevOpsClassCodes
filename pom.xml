@@ -102,7 +102,7 @@
 		<dependency>
 	<groupId>log4j</groupId>
 	<artifactId>log4j</artifactId>
-	<version>1.2.9</version>
+	<version>3.8.1</version>
 </dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
@@ -173,7 +173,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.2</version>
+                <version>3.8.1</version>
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -213,7 +213,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-report-plugin</artifactId>
-        <version>2.19.1</version>
+        <version>3.8.1</version>
       </plugin>
     </plugins>
   </reporting>
@@ -285,7 +285,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-enforcer-plugin</artifactId>
-                        <version>1.0</version>
+                        <version>3.8.1</version>
                         <executions>
                             <execution>
                                 <id>enforce-versions</id>
@@ -360,7 +360,7 @@
                                 <plugin>
                                     <groupId>org.codehaus.mojo</groupId>
                                     <artifactId>findbugs-maven-plugin</artifactId>
-                                    <version>2.4.0</version>
+                                    <version>3.8.1</version>
                                     <configuration>
                                         <effort>Max</effort>
                                         <xmlOutput>true</xmlOutput>
