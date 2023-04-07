@@ -285,7 +285,7 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-enforcer-plugin</artifactId>
-                        <version>3.8.1</version>
+                        <version>3.8</version>
                         <executions>
                             <execution>
                                 <id>enforce-versions</id>
@@ -305,12 +305,12 @@
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-site-plugin</artifactId>
-                        <version>3.3</version>
+                        <version>3.8</version>
                         <configuration>
                             <reportPlugins>
                                 <plugin>
                                     <artifactId>maven-project-info-reports-plugin</artifactId>
-                                    <version>2.7</version>
+                                    <version>3.8</version>
                                 </plugin>
              
          <plugin>
